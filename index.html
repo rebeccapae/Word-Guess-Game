@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess Game</title>
+
+    <!-- Link to Bootstrap and CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="/assets/css/style.css">
+
+    
+
+</head>
+
+
+<body>
+
+    <!-- Nav Bar -->
+    <nav class="navbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    </nav>
+
+    <!-- Main -->
+    <div class="container">
+
+        <!-- Youtube Video -->
+        <div class="row">
+            <div class="col-md-4">
+                
+            </div>
+            <div class="col-md-4">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/pYKPJl1PIIw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+                </iframe>
+            </div>
+            <div class="col-md-4">
+            
+            </div>
+        </div>
+
+    
+
+        <!-- Game Begins Here -->
+
+        <h3>PRESS ANY KEY TO GET STARTED!</h3>
+        <div class="row">
+            <div class="col-md-1" id = "col1">
+                col-md-1
+            </div>
+            <div class="col-md-5" id = "col2">
+                CURRENT WORD <br>
+                NUMBER OF GUESSES REAMAINING <br>
+            </div>
+            <div class="col-md-5" id = "col3">
+                <div class="row">
+                    <div class="col-md-12" id="subcol1">
+                        WINS <br>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12" id = "subcol2">
+                        LETTERS ALREADY GUESSED <br>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1" id="col4">
+                    col-md-1
+            </div>
+        </div>
+    </div>
+
+<script src="/assets/javascript/game.js"></script>
+
+</body>
+</html>

@@ -20,19 +20,13 @@ body {
 
 .container {
     height: 100%;
-    background-color: pink;
+    background-color: rgb(245, 206, 216);
     margin-top: 2%;
     z-index: -1;
 }
 
-#col-video {
-    width: 200%;
-}
-
 iframe {
-    margin: 15px;
-    width: auto;
-    height: auto;
+    margin: auto;
     position: relative;
     display: block;
     top: 2%;

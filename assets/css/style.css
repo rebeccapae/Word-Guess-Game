@@ -44,6 +44,9 @@ h3 {
     border-bottom: 1px solid;
 }
 
-
+#current-word {
+    text-align: center;
+    font-size: 40px;
+}
 
 
